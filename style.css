@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gentium Book Basic", serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 700px;
+  margin: auto; }
+
+.hero {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("images/bg-header.png");
+  background-size: 100% 360px, cover;
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  padding-top: 550px;
+  padding-bottom: 50px; }
+  .hero a {
+    color: white; }
+
+.title {
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 20px; }
+  .title h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0; }
+  .title .headline {
+    font-style: italic;
+    font-size: 30px;
+    color: #d7d7d7; }
+
+.meta {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .meta .author {
+    font-family: "Open Sans", san-serif;
+    font-weight: bold;
+    font-size: 15px; }
+  .meta .avatar {
+    vertical-align: middle; }
+  .meta .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #d7d7d7; }
+  .meta .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; }
+  .meta .links li + li {
+    margin-left: 10px; }
+  .meta .links a {
+    color: rgba(255, 255, 255, 0.5); }
+    .meta .links a:hover {
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
